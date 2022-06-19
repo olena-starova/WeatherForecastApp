@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>WeatherForecast</title>
+    <link rel="stylesheet" href="D:\SheCodes\Plus\WeatherForecastApp\style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"  />
+     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Poppins:ital,wght@0,900;1,800;1,900&display=swap" rel="stylesheet" />
+     <script src="https://kit.fontawesome.com/af918138c9.js" crossorigin="anonymous"></script>
+    </head>
+  <body>
+  <div class="card">
+  <div class="card-header">&#x1F321;StarForecast</div>
+  <div class="card-body">
+  <div class="container"></div>
+  <div class="row">
+            <div class="col">
+              <img src="D:\SheCodes\Plus\WeatherForecastApp\logosun.png">
+            </div>
+            <div class="col">
+            <form id="city-name">
+            <input
+            type="text"
+            placeholder="Enter a city"
+            autocomplete="off"
+            autofocus="on"
+            id="actual-city"/>
+            <input type="submit" value="Search"/>
+            <input type="button" id="current" value="Current"/>
+          </form>
+        </div>
+          </div>
+          <h1 id="city"></h1>
+          <p id="date"></p>
+            
+ <div class="container">
+  <div class="row">
+    <div class="col">
+      <ul>
+        <li id="icon"><img src="http://openweathermap.org/img/wn/10d@2x.png"></li>
+        <li id="description"></li></div>
+      </ul>
+      
+    <div class="col"><div class="temp">
+    <span id="actual-temp"></span><span id="celsius" role="button"> ºC</span>|<span id="fahrenheit" role="button"> ºF</span></div></div>
+    <div class="col"><div class="hum">Humidity: <span id="humidity"></span>%</div></div>
+    <div class="col"><div class="wind">Wind: <span id="wind"></span> m/s</div></div>   
+  </div>
+ </div>
+ <hr>
+ <div class="container">
+  <div class="row"> 
+  <div class="col">
+<div class="card" style="width: 7rem">
+  <div class="card-body">
+    <h5 class="card-title">Monday</h5>
+    <h6 class="card-subtitle mb-2 text-muted">23/05</h6>
+    <p class="card-text">+7...+16ºC</br><i class="fa-solid fa-cloud-sun"></i></p>
+  </div>
+</div>
+  </div>
+    <div class="col">
+<div class="card" style="width: 7rem;">
+  <div class="card-body">
+    <h5 class="card-title">Tuesday</h5>
+    <h6 class="card-subtitle mb-2 text-muted">24/05</h6>
+    <p class="card-text">+6...+18ºC</br><i class="fa-solid fa-cloud-sun"></i></p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+<div class="card" style="width: 7rem;">
+  <div class="card-body">
+    <h5 class="card-title">Wednesday</h5>
+    <h6 class="card-subtitle mb-2 text-muted">25/05</h6>
+    <p class="card-text">+10...+19ºC</br><i class="fa-solid fa-cloud-sun"></i></p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+<div class="card" style="width: 7rem;">
+  <div class="card-body">
+    <h5 class="card-title">Thursday</h5>
+    <h6 class="card-subtitle mb-2 text-muted">26/05</h6>
+    <p class="card-text">+10...+19ºC</br><i class="fa-solid fa-sun"></i></p>
+  </div>
+</div>
+    </div>
+   <div class="col">
+<div class="card" style="width: 7rem;">
+  <div class="card-body">
+     <h5 class="card-title">Friday</h5>
+    <h6 class="card-subtitle mb-2 text-muted">27/05</h6>
+    <p class="card-text">+13...+21ºC</br><i class="fa-solid fa-cloud-sun-rain"></i></p>
+  </div>
+</div>
+    </div>
+</div>
+    </div>
+    </div>
+<a href="https://github.com/olena-starova/star-forecast_2">Code source</a> by Olena Starova
+ </body>
+ <script src="D:\SheCodes\Plus\WeatherForecastApp\script.js"></script>
+</html>
+
