@@ -15,11 +15,7 @@ img {
 }
 
 li {
-  list-style: none;
-}
-
-.description {
-  text-align: center;
+  list-style-type: none;
 }
 
 .col {
