@@ -15,7 +15,7 @@ img {
 }
 
 li {
-  list-style-position: none;
+  list-style: none;
 }
 
 .description {
