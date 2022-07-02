@@ -18,6 +18,10 @@ li {
   list-style-position: none;
 }
 
+.description {
+  text-align: center;
+}
+
 .col {
   font-family: "Poppins", sans-serif;
 }
