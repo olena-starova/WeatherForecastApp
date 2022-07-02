@@ -43,10 +43,9 @@ function formatDate(date) {
 formatDate();
 
 function showWeather(response) {
+  tempC = response.data.main.temp;
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#actual-temp").innerHTML = Math.round(
-    response.data.main.temp
-  );
+  document.querySelector("#actual-temp").innerHTML = Math.round(tempC);
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
@@ -87,9 +86,9 @@ function getCurrentGeo(event) {
 
 function showTempF(event) {
   event.preventDefault();
-  let TempF = Math.round((14 * 1, 8) + 32);
+  let tempF = Math.round((tempC * 9) / 5 + 32);
   let temperatureElement = document.querySelector("#actual-temp");
-  temperatureElement.innerHTML = TempF;
+  temperatureElement.innerHTML = tempF;
 }
 
 function showTempC(event) {
@@ -97,6 +96,8 @@ function showTempC(event) {
   let temperatureElement = document.querySelector("#actual-temp");
   temperatureElement.innerHTML = Math.round("#actual-temp");
 }
+
+let tempC = null;
 
 let form = document.querySelector("#city-name");
 form.addEventListener("submit", submitCity);
@@ -106,3 +107,5 @@ currentLocationButton.addEventListener("click", getCurrentGeo);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", showTempF);
+
+search("Kharkiv");
