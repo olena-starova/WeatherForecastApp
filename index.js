@@ -87,10 +87,9 @@ function getCurrentGeo(event) {
 
 function showTempF(event) {
   event.preventDefault();
-  let tempC = document.querySelector("#actual-temp").value;
-  document.querySelector("#actual-temp").innerHTML = Math.round(
-    (tempC * 1, 8) + 32
-  );
+  let TempF = Math.round((14 * 1, 8) + 32);
+  let temperatureElement = document.querySelector("temp");
+  temperatureElement.innerHTML = TempF;
 }
 
 function showTempC(event) {
@@ -105,8 +104,5 @@ form.addEventListener("submit", submitCity);
 let currentLocationButton = document.querySelector("#current");
 currentLocationButton.addEventListener("click", getCurrentGeo);
 
-let buttonF = document.querySelector("#fahrenheit");
-buttonF.addEventListener("click", showTempF);
-
-let buttonC = document.querySelector("#celsius");
-buttonF.addEventListener("click", showTempC);
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", showTempF);

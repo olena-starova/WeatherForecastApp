@@ -16,6 +16,21 @@ img {
 
 li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.temp .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.temp .active:hover {
+  text-decoration: none;
 }
 
 .col {
