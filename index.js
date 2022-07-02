@@ -88,7 +88,7 @@ function getCurrentGeo(event) {
 function showTempF(event) {
   event.preventDefault();
   let TempF = Math.round((14 * 1, 8) + 32);
-  let temperatureElement = document.querySelector("temp");
+  let temperatureElement = document.querySelector("#actual-temp");
   temperatureElement.innerHTML = TempF;
 }
 
