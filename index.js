@@ -94,7 +94,7 @@ function showTempF(event) {
 function showTempC(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#actual-temp");
-  temperatureElement.innerHTML = Math.round("#actual-temp");
+  temperatureElement.innerHTML = tempC;
 }
 
 let tempC = null;
@@ -107,5 +107,8 @@ currentLocationButton.addEventListener("click", getCurrentGeo);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", showTempF);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", showTempC);
 
 search("Kharkiv");
