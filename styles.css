@@ -24,9 +24,14 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.units {
+.celsius-link {
   text-decoration: none;
 }
+
+.fahrenheit-link {
+  text-decoration: none;
+}
+
 .temp .active {
   color: rgb(33, 33, 33);
   cursor: default;
