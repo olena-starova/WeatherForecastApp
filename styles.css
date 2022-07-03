@@ -27,6 +27,7 @@ li:first-letter {
 .temp .active {
   color: rgb(33, 33, 33);
   cursor: default;
+  text-decoration: none;
 }
 
 .temp .active:hover {
