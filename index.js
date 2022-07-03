@@ -86,15 +86,15 @@ function getCurrentGeo(event) {
 
 function showTempF(event) {
   event.preventDefault();
-  let tempF = Math.round((tempC * 9) / 5 + 32);
+  let tempF = (tempC * 9) / 5 + 32;
   let temperatureElement = document.querySelector("#actual-temp");
-  temperatureElement.innerHTML = tempF;
+  temperatureElement.innerHTML = Math.round(tempF);
 }
 
 function showTempC(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#actual-temp");
-  temperatureElement.innerHTML = tempC;
+  temperatureElement.innerHTML = Math.round(tempC);
 }
 
 let tempC = null;
