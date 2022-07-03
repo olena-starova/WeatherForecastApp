@@ -24,14 +24,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.celsius-link {
-  text-decoration: none;
-}
-
-.fahrenheit-link {
-  text-decoration: none;
-}
-
 .temp .active {
   color: rgb(33, 33, 33);
   cursor: default;
@@ -67,10 +59,10 @@ p {
 }
 
 .temp {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: rgb(159, 43, 43);
+  color: rgb(225, 225, 22);
 }
 .hum {
   font-size: 20px;
