@@ -66,8 +66,8 @@ p {
   color: blue;
 }
 
-.temp {
-  font-size: 30px;
+.actual-temp {
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: rgb(159, 43, 43);
