@@ -58,7 +58,7 @@ p {
   color: blue;
 }
 
-.temp {
+.temp .actual-temp {
   font-size: 35px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
