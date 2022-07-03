@@ -88,6 +88,8 @@ function showTempF(event) {
   event.preventDefault();
   let tempF = (tempC * 9) / 5 + 32;
   let temperatureElement = document.querySelector("#actual-temp");
+  celsiusLink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
   temperatureElement.innerHTML = Math.round(tempF);
 }
 
@@ -95,6 +97,8 @@ function showTempC(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#actual-temp");
   temperatureElement.innerHTML = Math.round(tempC);
+  fahrenheitLink.classList.remove("active");
+  celsiusLink.classList.add("active");
 }
 
 let tempC = null;
