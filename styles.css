@@ -24,6 +24,24 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.celsius-link {
+  text-decoration: none;
+}
+
+.fahrenheit-link {
+  text-decoration: none;
+}
+
+.temp .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.temp .active:hover {
+  text-decoration: none;
+}
+
 .col {
   font-family: "Poppins", sans-serif;
 }
@@ -48,31 +66,12 @@ p {
   color: blue;
 }
 
-.actual-temp {
-  font-size: 40px;
+.temp {
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: rgb(159, 43, 43);
 }
-
-.celsius-link {
-  text-decoration: none;
-}
-
-.fahrenheit-link {
-  text-decoration: none;
-}
-
-.temp .active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-  text-decoration: none;
-}
-
-.temp .active:hover {
-  text-decoration: none;
-}
-
 .hum {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
