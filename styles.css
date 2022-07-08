@@ -26,6 +26,20 @@
   font-weight: 100;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 1000;
+  background-color: rgb(225, 225, 22);
+  font-family: "Roboto Slab";
+  border-radius: 5px;
+}
+p {
+  font-size: 30px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  color: darkblue;
+}
+
 li {
   list-style-type: none;
   margin: 0;
@@ -48,20 +62,6 @@ li:first-letter {
 
 .temp .active:hover {
   text-decoration: none;
-}
-
-h1 {
-  font-size: 50px;
-  font-weight: 1000;
-  background-color: rgb(225, 225, 22);
-  font-family: "Roboto Slab";
-  border-radius: 5px;
-}
-p {
-  font-size: 30px;
-  font-family: "Roboto Slab";
-  font-weight: 700;
-  color: darkblue;
 }
 
 .temp strong {
