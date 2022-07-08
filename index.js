@@ -45,15 +45,15 @@ formatDate();
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
-  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
   let forecastHTML = `<div class="row">`;
-  days.forEach(function (day) {
+  weekDays.forEach(function (weekDay) {
     forecastHTML =
       forecastHTML +
       `
       <div class="col-2">
-        <div class="weather-forecast-date">${day}</div>
+        <div class="weather-forecast-date">${weekDay}</div>
         <img
           src="http://openweathermap.org/img/wn/50d@2x.png"
           alt=""
@@ -69,7 +69,6 @@ function displayForecast() {
 
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
-  console.log(forecastHTML);
 }
 
 function showWeather(response) {
@@ -146,4 +145,5 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showTempC);
 
 search("Kharkiv");
+formatDate();
 displayForecast();
