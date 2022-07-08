@@ -7,7 +7,7 @@
 .card {
   width: 750px;
   margin: 10px auto;
-  color: yellow;
+  background-color: rgb(228, 228, 194);
   box-shadow: 10px 5px 5px gray;
 }
 .card-header {
@@ -116,4 +116,9 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   color: darkblue;
+}
+
+hr {
+  border: 2px solid #bea42e;
+  margin: 0px 100px;
 }
