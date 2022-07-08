@@ -17,13 +17,12 @@
   background: rgb(68, 68, 241);
 }
 .card-body {
-  background-color: #d8f2ff;
-  margin: 0px;
-  padding: 0px;
+  background-color: #00cbfe;
+  border-color: #00cbfe;
 }
 
 img {
-  width: 120px;
+  width: 100px;
 }
 
 li {
