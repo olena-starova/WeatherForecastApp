@@ -131,6 +131,7 @@ function showTempC(event) {
 }
 
 let tempC = null;
+displayForecast();
 
 let form = document.querySelector("#city-name");
 form.addEventListener("submit", submitCity);
@@ -146,4 +147,3 @@ celsiusLink.addEventListener("click", showTempC);
 
 search("Kharkiv");
 formatDate();
-displayForecast();
