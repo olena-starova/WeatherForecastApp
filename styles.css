@@ -14,8 +14,7 @@
 .card-body {
   background: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
   border-color: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
-  border: 1px solid blue;
-  border-radius: 20px;
+  border-radius: 0 0 5px 5px;
 }
 
 img {
