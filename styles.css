@@ -3,13 +3,11 @@
   margin: 10px auto;
   box-shadow: 10px 5px 5px gray;
 }
-.card-header {
+.header {
   text-align: left;
   font-size: 50px;
-  color: orange;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  background: rgb(68, 68, 241);
 }
 .card-body {
   background: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
@@ -41,9 +39,11 @@ li:first-letter {
   text-decoration: none;
 }
 
-.col {
+.col,
+.city-name {
   font-family: "Poppins", sans-serif;
 }
+
 .city {
   font-size: 17px;
   font-family: "Poppins", sans-serif;
@@ -54,7 +54,7 @@ li:first-letter {
 h1 {
   font-size: 50px;
   font-weight: 900;
-  background-color: rgb(224, 155, 28);
+  background-color: rgb(241, 241, 91);
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
 }
@@ -62,11 +62,11 @@ p {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: blue;
+  color: darkblue;
 }
 
 .temp strong {
-  font-size: 70px;
+  font-size: 80px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: rgb(225, 225, 22);
@@ -85,18 +85,20 @@ p {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: rgb(24, 24, 97);
+  color: rgb(15, 15, 94);
 }
 .wind {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: rgb(24, 24, 97);
+  color: rgb(15, 15, 83);
 }
 
-.card-body {
-  margin: 0px auto;
+hr {
+  border: 2px solid #bea42e;
+  margin: 0px 100px;
 }
+
 .card-title {
   text-align: center;
   font-size: 14px;
@@ -117,9 +119,4 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   color: darkblue;
-}
-
-hr {
-  border: 2px solid #bea42e;
-  margin: 0px 100px;
 }
