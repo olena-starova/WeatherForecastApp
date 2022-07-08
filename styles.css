@@ -18,6 +18,8 @@
 }
 .card-body {
   background-color: #d8f2ff;
+  margin: 0px;
+  padding: 0px;
 }
 
 img {
