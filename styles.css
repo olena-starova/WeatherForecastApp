@@ -24,6 +24,10 @@ li {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(15, 15, 94);
 }
 
 li:first-letter {
@@ -52,13 +56,6 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: darkblue;
-}
-
-.description {
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  color: rgb(15, 15, 94);
 }
 
 .temp strong {
