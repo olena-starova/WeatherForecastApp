@@ -11,7 +11,7 @@
 .card-header .project-name {
   text-align: left;
   font-size: 50px;
-  font-family: Georgia, serif;
+  font-family: "zantrokeregular", serif;
   font-weight: 700;
   color: rgb(12, 12, 240);
 }
@@ -21,7 +21,7 @@
 }
 
 .mb-3 {
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
