@@ -12,8 +12,7 @@
   background: rgb(68, 68, 241);
 }
 .card-body {
-  background-color: #00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7;
-  border-color: #00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7;
+  background: #00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7;
 }
 
 .main-img {
