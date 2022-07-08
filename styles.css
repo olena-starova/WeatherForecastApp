@@ -1,3 +1,9 @@
+.weather-app-wrapper {
+  background: linear-gradient(#b2fcff, #ffdbb2, #ffb2d5);
+  margin: 0px 0px;
+  padding: 0px;
+}
+
 .card {
   width: 750px;
   margin: 10px auto;
