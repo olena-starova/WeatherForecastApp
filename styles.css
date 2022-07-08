@@ -67,9 +67,16 @@ p {
 
 .hum,
 .wind {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  color: rgb(15, 15, 94);
+}
+
+.description {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: rgb(15, 15, 94);
 }
 
