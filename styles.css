@@ -12,6 +12,7 @@
 .card-header {
   text-align: left;
   font-size: 50px;
+  color: rgb(236, 182, 84);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   background: rgb(68, 68, 241);
@@ -21,7 +22,7 @@
   border-color: #d8f2ff;
 }
 
-img {
+.main-img {
   width: 100px;
 }
 
