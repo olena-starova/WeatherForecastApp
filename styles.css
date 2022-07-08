@@ -1,7 +1,7 @@
 .card {
   width: 750px;
   margin: 10px auto;
-  background: gray;
+  background: blue;
   box-shadow: 10px 5px 5px gray;
 }
 .card-header {
