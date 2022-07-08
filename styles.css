@@ -1,9 +1,3 @@
-.weather-app-wrapper {
-  background: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
-  margin: 0px;
-  padding: 0px;
-}
-
 .card {
   width: 750px;
   margin: 10px auto;
@@ -18,8 +12,8 @@
   background: rgb(68, 68, 241);
 }
 .card-body {
-  background-color: #d8f2ff;
-  border-color: #d8f2ff;
+  background: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
+  border-color: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
 }
 
 img {
