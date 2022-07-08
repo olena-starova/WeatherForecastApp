@@ -15,10 +15,6 @@
   border-radius: 0 0 5px 5px;
 }
 
-img {
-  width: 100px;
-}
-
 li {
   list-style-type: none;
   margin: 0;
@@ -30,7 +26,7 @@ li:first-letter {
 }
 
 .temp .active {
-  color: rgb(33, 33, 33);
+  color: rgb(15, 15, 94);
   cursor: default;
   text-decoration: none;
 }
@@ -39,22 +35,10 @@ li:first-letter {
   text-decoration: none;
 }
 
-.col,
-.city-name {
-  font-family: "Poppins", sans-serif;
-}
-
-.city {
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: yell;
-  text-decoration: underline;
-}
 h1 {
   font-size: 50px;
   font-weight: 900;
-  background-color: rgb(241, 241, 91);
+  background-color: rgb(225, 225, 22);
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
 }
@@ -81,17 +65,12 @@ p {
   position: relative;
 }
 
-.hum {
-  font-size: 20px;
+.hum,
+.wind {
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: rgb(15, 15, 94);
-}
-.wind {
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: rgb(15, 15, 83);
 }
 
 hr {
