@@ -26,7 +26,7 @@ li {
   padding: 0;
 }
 
-li:first-letter {
+p:first-letter {
   text-transform: capitalize;
 }
 
@@ -57,7 +57,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
 }
-p {
+h2 {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
