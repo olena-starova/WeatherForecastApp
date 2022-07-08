@@ -93,26 +93,23 @@ hr {
   margin: 0px 100px;
 }
 
-.card-title {
+.weather-forecast {
+  margin-top: 20px;
   text-align: center;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 700;
-  color: blue;
+  color: rgb(54, 54, 158);
 }
-.card-subtitle {
-  text-align: center;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 600;
-  color: blue;
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
 }
-.card-text {
-  text-align: center;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 600;
-  color: darkblue;
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
 
 .sources {
