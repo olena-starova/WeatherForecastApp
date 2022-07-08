@@ -3,7 +3,7 @@
   margin: 10px auto;
   box-shadow: 10px 5px 5px gray;
 }
-.header {
+.card-header .header {
   text-align: left;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
@@ -11,7 +11,6 @@
 }
 .card-body {
   background: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
-  border-color: linear-gradient(#00bdfe, #00cbfe, #5adeff, #d8f2ff, #84e4f7);
   border-radius: 0 0 5px 5px;
 }
 
@@ -49,6 +48,13 @@ p {
   color: darkblue;
 }
 
+.description {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(15, 15, 94);
+}
+
 .temp strong {
   font-size: 80px;
   font-family: "Poppins", sans-serif;
@@ -70,13 +76,6 @@ p {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: rgb(15, 15, 94);
-}
-
-.description {
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
   color: rgb(15, 15, 94);
 }
 
