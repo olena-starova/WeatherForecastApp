@@ -40,6 +40,7 @@ function formatDate(date) {
 
   return date;
 }
+formatDate();
 
 function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
@@ -152,4 +153,3 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showTempC);
 
 search("Kharkiv");
-formatDate();
