@@ -101,17 +101,17 @@ hr {
 
 .weather-forecast-date {
   font-family: "Roboto Slab";
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .weather-forecast-temperatures {
   font-family: "Roboto Slab";
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
 
@@ -119,6 +119,6 @@ hr {
   text-align: left;
   font-size: 12px;
   font-family: Georgia, serif;
-  font-weight: 600;
+  font-weight: 400;
   color: darkblue;
 }
