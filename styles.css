@@ -54,13 +54,12 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.actual-temp .active {
+.temp .active {
   color: rgb(15, 15, 94);
   cursor: default;
-  text-decoration: none;
 }
 
-.actual-temp .active:hover {
+.temp .active:hover {
   text-decoration: none;
 }
 
